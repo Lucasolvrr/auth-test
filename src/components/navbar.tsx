@@ -1,6 +1,7 @@
 import Link from "next/link"
 import LogoutForm from "./logoutForm"
-import { getSession } from "@/actions"
+import { getSession } from "@/Actions"
+
 
 const Navbar = async () => {
   const session = await getSession()
